@@ -16,11 +16,11 @@ namespace UnitTest
             health = 100;
             //Console.WriteLine("Hello world.");
 
-            //ShowHUD();
-            //TakeDamage(150);
-            //ShowHUD();
-            //Heal(10);
-            //ShowHUD();
+            ShowHUD();
+            TakeDamage(150);
+            ShowHUD();
+            Heal(10);
+            ShowHUD();
         }
 
         static void ShowHUD()
